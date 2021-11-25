@@ -1,0 +1,49 @@
+{
+  "name": "outlet",
+  "version": "1.0.0",
+  "description": "Build api system for ecommerce",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://EplazaAn@gitlab.com/smiletech1/ecommerce-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/smiletech1/ecommerce-api/issues"
+  },
+  "homepage": "https://gitlab.com/smiletech1/ecommerce-api#readme",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "base64-img": "^1.0.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-validator": "^6.12.0",
+    "formidable": "^1.2.6",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.4",
+    "sequelize-soft-delete": "^1.1.0",
+    "underscore": "^1.13.1",
+    "uuidv4": "^6.2.10"
+  }
+}
